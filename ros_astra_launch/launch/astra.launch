@@ -117,8 +117,9 @@
 	   file="$(find astra_launch)/launch/includes/astra_frames.launch">
     <arg name="camera" value="$(arg camera)" />
   </include> 
+  <!-- 
   <node pkg="tf" type="static_transform_publisher" name="camera_broadcaster" args="0.21 -0.33 0.76 -0.37246 0.37275 0.60073 0.60121 base_link camera_link 100" />
-    <!-- 
+    
   <node pkg="tf" type="static_transform_publisher" name="camera_rgb_broadcaster" args="0.255 -0.33 0.76 0.97358 -0.00038 0.0 -0.2283 base_link camera_rgb_optical_frame 100" />
   <node pkg="tf" type="static_transform_publisher" name="camera_depth_broadcaster" args="0.255 -0.33 0.76 0.97358 -0.00038 0.0 -0.2283 base_link camera_depth_optical_frame 100" />
   -->
